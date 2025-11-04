@@ -1,0 +1,140 @@
+[
+  {
+    "id": 1,
+    "name": "Mama Mia Pizzeria",
+    "cuisine": "Italian",
+    "rating": 4.6,
+    "time": "25-35 min",
+    "price": "$$",
+  "description": "Classic wood-fired pizzas and salads.",
+  "badge": "Top 10 in India",
+    "menu": [
+      { "id": 1, "name": "Margherita Pizza", "desc": "Classic cheese & tomato", "price": 249, "img": "https://tse4.mm.bing.net/th/id/OIP.7CZKLTHlIY_3A_F9BFML9AHaHa?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 2, "name": "Paneer Butter Masala", "desc": "Creamy paneer with butter tomato gravy", "price": 199, "img": "https://tse1.mm.bing.net/th/id/OIP.IdGS7krtr05EMXWQmOL1kwHaKi?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 3, "name": "Chicken Biryani", "desc": "Fragrant basmati biryani with tender chicken", "price": 279, "img": "https://tse4.mm.bing.net/th/id/OIP.r6T2zRnyrrP8LdtOEaGVowHaGl?pid=Api&P=0&h=180", "tags": ["Non-Veg"] },
+      { "id": 4, "name": "Veg Thali", "desc": "Balanced thali with 4 items", "price": 219, "img": "https://tse3.mm.bing.net/th/id/OIP.XhJg-GAs7HJcCE1cmIFxOgHaEK?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 5, "name": "Egg Roll", "desc": "Spiced egg masala wrapped in paratha", "price": 99, "img": "https://tse3.mm.bing.net/th/id/OIP.PboGH0mYW7WMayVuzaAVWQHaLH?pid=Api&P=0&h=180", "tags": ["Non-Veg"] },
+      { "id": 6, "name": "Masala Dosa", "desc": "Crispy dosa with potato filling", "price": 129, "img": "https://tse2.mm.bing.net/th/id/OIP.kXS6IAFLLO0Rl1gz8Bb7dAHaE8?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 7, "name": "Schezwan Noodles", "desc": "Spicy Indo-Chinese noodles", "price": 149, "img": "https://tse3.mm.bing.net/th/id/OIP.43y4bDY90br41t6hyzxDYgHaJQ?pid=Api&P=0&h=180", "tags": ["Veg","Spicy"] },
+      { "id": 8, "name": "Butter Chicken", "desc": "Creamy tomato-based curry", "price": 289, "img": "https://tse4.mm.bing.net/th/id/OIP.an7yXvK88yFqxDuycY8exgHaHb?pid=Api&P=0&h=180", "tags": ["Non-Veg"] },
+      { "id": 9, "name": "Chocolate Shake", "desc": "Thick and chocolaty", "price": 99, "img": "https://tse2.mm.bing.net/th/id/OIP.nluBZDxsFuXfzlAMIEBaYgHaLH?pid=Api&P=0&h=180", "tags": ["Beverage"] },
+      { "id": 10, "name": "Veg Burger", "desc": "Veg patty with classic toppings", "price": 139, "img": "https://tse2.mm.bing.net/th/id/OIP.xKmInOGnUTlE6bIJxmP8TgHaJ4?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 11, "name": "Grilled Sandwich", "desc": "Cheese and veggies", "price": 119, "img": "https://tse3.mm.bing.net/th/id/OIP._Le9Tj-pFXLkhLRLcUWCxAHaHa?pid=Api&P=0&h=180", "tags": ["Veg"] },
+      { "id": 12, "name": "Pav Bhaji", "desc": "Mumbai style mashed veggies", "price": 129, "img": "https://tse2.mm.bing.net/th/id/OIP.Yjj0qcz1o5eh8qpHp4gcFwHaGL?pid=Api&P=0&h=180", "tags": ["Veg"] }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Spice Route",
+    "cuisine": "Indian",
+    "rating": 4.4,
+    "time": "30-40 min",
+    "price": "$",
+  "description": "Homestyle curries and biryanis.",
+  "badge": "Top 10 in India",
+    "menu": []
+  },
+  {
+    "id": 3,
+    "name": "Sushi Central",
+    "cuisine": "Japanese",
+    "rating": 4.8,
+    "time": "20-30 min",
+    "price": "$$$",
+  "description": "Fresh nigiri, rolls and sashimi.",
+  "badge": "Top 10 in India",
+    "menu": []
+  },
+  {
+    "id": 4,
+    "name": "Taco Town",
+    "cuisine": "Mexican",
+    "rating": 4.2,
+    "time": "15-25 min",
+    "price": "$",
+    "description": "Street-style tacos and bowls.",
+    "menu": []
+  },
+  {
+    "id": 5,
+    "name": "Green Garden",
+    "cuisine": "Vegetarian",
+    "rating": 4.3,
+    "time": "20-30 min",
+    "price": "$$",
+  "description": "Fresh salads and healthy bowls.",
+  "badge": "Top 10 in India",
+    "menu": []
+  },
+  {
+    "id": 6,
+    "name": "Urban Grill",
+    "cuisine": "BBQ",
+    "rating": 4.5,
+    "time": "30-40 min",
+    "price": "$$$",
+    "description": "Grilled favorites and platters.",
+    "menu": []
+  },
+  {
+    "id": 7,
+    "name": "Noodle Hub",
+    "cuisine": "Asian",
+    "rating": 4.1,
+    "time": "18-28 min",
+    "price": "$",
+    "description": "Quick noodles and small bites.",
+    "menu": []
+  },
+  {
+    "id": 8,
+    "name": "The Dessert Bar",
+    "cuisine": "Dessert",
+    "rating": 4.7,
+    "time": "10-20 min",
+    "price": "$",
+  "description": "Shakes, cakes and sweets.",
+  "badge": "Top 10 in India",
+    "menu": []
+  },
+  {
+    "id": 9,
+    "name": "Falafel House",
+    "cuisine": "Middle Eastern",
+    "rating": 4.2,
+    "time": "20-30 min",
+    "price": "$$",
+    "description": "Wraps, bowls and sides.",
+    "menu": []
+  },
+  {
+    "id": 10,
+    "name": "Bistro 24",
+    "cuisine": "European",
+    "rating": 4.0,
+    "time": "25-35 min",
+    "price": "$$",
+    "description": "Comfort food and daily specials.",
+    "menu": []
+  },
+  {
+    "id": 11,
+    "name": "Spice & Sizzle",
+    "cuisine": "Indian",
+    "rating": 4.4,
+    "time": "22-32 min",
+    "price": "$$",
+    "description": "Classic Indian dishes with a twist.",
+    "menu": []
+  },
+  {
+    "id": 12,
+    "name": "Cozy Corner",
+    "cuisine": "Cafe",
+    "rating": 4.1,
+    "time": "12-20 min",
+    "price": "$",
+    "description": "Coffee, sandwiches and light meals.",
+    "menu": []
+  }
+]
