@@ -1,10 +1,13 @@
 import React, {useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 export default function Login(){
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [msg, setMsg] = useState('')
+
+  const navigate = useNavigate()
 
   async function submit(e){
     e.preventDefault()
@@ -30,7 +33,11 @@ export default function Login(){
       }
 
       setMsg('Login successful — token received')
-      // In a real app you'd save the token and redirect
+      // Persist token and redirect to home
+      if(body && body.token){
+        try{ localStorage.setItem('fb_token', body.token) }catch(e){}
+      }
+      navigate('/')
     }catch(err){
       setMsg(err.message || 'Login error')
     }

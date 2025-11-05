@@ -13,7 +13,8 @@ export default function Signup(){
     setMsg('')
     try{
       console.log('Sending signup request...');
-      const res = await fetch('http://localhost:4000/api/auth/signup', {
+      // use relative path so dev proxy or the same-origin setup will work
+      const res = await fetch('/api/auth/signup', {
         method: 'POST', headers: {'Content-Type':'application/json'},
         body: JSON.stringify({ name, email, password, city })
       })
